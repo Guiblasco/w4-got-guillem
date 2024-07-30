@@ -5,9 +5,14 @@ export interface Character {
   state: "alive" | "dead";
   die: () => void;
   talk: () => string;
-}
+};
 
-interface King extends Character {
+type King = {
   yearsOfReign: number;
   talk: () => "Vais a morir todos";
-}
+};
+
+type Fighter = {
+  weapon: string;
+  skill: 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10;
+};
