@@ -20,3 +20,8 @@ interface Adviser extends Character {
   characterAdvises: Character;
   talk: () => "No sé por qué, pero creo que voy a morir pronto";
 }
+interface Squire extends Character {
+  companion: Fighter;
+  assKissing: 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10;
+  talk: () => "soy un looser";
+}
