@@ -1,4 +1,4 @@
-export type Character = {
+export interface Character {
   name: string;
   surname: string;
   age: number;
