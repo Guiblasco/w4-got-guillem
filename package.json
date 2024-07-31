@@ -8,7 +8,7 @@
     "build:dev": "tsc -w",
     "build": "tsc",
     "prepare": "husky",
-    "test": "jest"
+    "test": "jest --verbose"
   },
   "keywords": [],
   "author": "",
