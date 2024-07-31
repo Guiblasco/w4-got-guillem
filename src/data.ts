@@ -38,3 +38,9 @@ const characters = [
   tyrionLannister,
   bronn,
 ];
+
+const charactersMessage = characters.map((character) => character.talk());
+
+charactersMessage.forEach((talk, index) => {
+  console.log(`${index + 1}. ${talk}`);
+});
