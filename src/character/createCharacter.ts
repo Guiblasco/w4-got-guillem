@@ -14,7 +14,7 @@ const createCharacter = (
       this.isAlive = false;
     },
     talk() {
-      return "hola";
+      return "";
     },
   };
 

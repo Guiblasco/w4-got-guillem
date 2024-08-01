@@ -1,14 +1,12 @@
-import createCharacter from "./createCharacter";
+import createCharacter from "./createCharacter.js";
 
 describe("Given the function createCharacter", () => {
-  describe("When it recives the values {'Jaime', 'Lannister', '23'}", () => {
-    test("Then it sohuld return an object type Character with properties name:'Jaime', surname: 'Lannister', age: '23'", () => {
-      const characterSpects = { name: "Jaime", surname: "Lannister", age: 23 };
-      const expectedJaime = {
-        name: "Jaime",
-        surname: "Lannister",
-        age: 23,
-      };
+  describe("When it recives the values Alexis Garcia and 32", () => {
+    test("Then it sohuld return a Character  named Alexis, surname Garcia and his age: 32", () => {
+      const characterSpects = { name: "Alexis", surname: "Garcia", age: 32 };
+      const expectedName = "Alexis";
+      const expectedSurname = "Garcia";
+      const expectedAge = 32;
 
       const newCharacter = createCharacter(
         characterSpects.name,
@@ -16,9 +14,9 @@ describe("Given the function createCharacter", () => {
         characterSpects.age,
       );
 
-      expect(newCharacter.name).toBe(expectedJaime.name);
-      expect(newCharacter.surname).toBe(expectedJaime.surname);
-      expect(newCharacter.age).toBe(expectedJaime.age);
+      expect(newCharacter.name).toBe(expectedName);
+      expect(newCharacter.surname).toBe(expectedSurname);
+      expect(newCharacter.age).toBe(expectedAge);
     });
   });
 });
