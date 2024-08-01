@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream:src/king/createKings.ts
 import createCharacter from "../character/createCharacter";
+=======
+import createCharacter from "../character/createCharacter.js";
+>>>>>>> Stashed changes:src/king/createKing.ts
 import type { King } from "./type";
 
 export const createKing = (

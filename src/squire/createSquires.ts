@@ -1,6 +1,12 @@
+<<<<<<< Updated upstream:src/squire/createSquires.ts
 import createCharacter from "../character/createCharacter";
 import type { Squire, AssKissingRange } from "./type";
 import type { Fighter } from "../fighter/type";
+=======
+import createCharacter from "../character/createCharacter.js";
+import type { Squire, AssKissingRange } from "./types.js";
+import type { Fighter } from "../fighter/types.js";
+>>>>>>> Stashed changes:src/squire/createSquire.ts
 
 export const createSquire = (
   characterIdentity: { name: string; surname: string; age: number },

@@ -31,7 +31,7 @@ const bronn = createSquire(
   10,
 );
 
-const characters = [
+export const characters = [
   joffreyBaratheon,
   jaimeLannister,
   daenerysTargaryen,

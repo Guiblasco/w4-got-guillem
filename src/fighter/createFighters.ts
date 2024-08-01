@@ -1,5 +1,10 @@
+<<<<<<< Updated upstream:src/fighter/createFighters.ts
 import createCharacter from "../character/createCharacter";
 import type { SkillRange, Fighter } from "./type";
+=======
+import createCharacter from "../character/createCharacter.js";
+import type { SkillRange, Fighter } from "./types.js";
+>>>>>>> Stashed changes:src/fighter/createFighter.ts
 
 export const createFighter = (
   characterIdentity: { name: string; surname: string; age: number },

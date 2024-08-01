@@ -1,6 +1,10 @@
+<<<<<<< Updated upstream:src/adviser/createAdvisers.ts
 import createCharacter from "../character/createCharacter";
+=======
+import createCharacter from "../character/createCharacter.js";
+>>>>>>> Stashed changes:src/adviser/createAdviser.ts
 import type Character from "../character/types";
-import type { Adviser } from "./type";
+import type { Adviser } from "./types.js";
 
 export const createAdviser = (
   characterIdentity: { name: string; surname: string; age: number },

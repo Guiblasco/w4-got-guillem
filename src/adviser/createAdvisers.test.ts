@@ -1,5 +1,9 @@
 import type Character from "../character/types";
+<<<<<<< Updated upstream:src/adviser/createAdvisers.test.ts
 import createAdvisers from "./createAdvisers";
+=======
+import createAdvisers from "./createAdviser.js";
+>>>>>>> Stashed changes:src/adviser/createAdviser.test.ts
 
 describe("Given the function createAdvisers", () => {
   describe("When it recives the values {'Tyrion', 'Lannister', '24'}, daenerysTargaryen", () => {
