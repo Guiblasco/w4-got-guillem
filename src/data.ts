@@ -2,6 +2,7 @@ import createSquire from "./squire/createSquire";
 import createFighter from "./fighter/createFighter";
 import createAdviser from "./adviser/createAdviser";
 import createKing from "./king/createKing";
+import type Character from "./character/types";
 
 const joffreyBaratheon = createKing(
   { name: "Joffrey", surname: "Baratheon", age: 36 },
@@ -31,16 +32,10 @@ const bronn = createSquire(
   10,
 );
 
-const characters = [
+export const characters: Character[] = [
   joffreyBaratheon,
   jaimeLannister,
   daenerysTargaryen,
   tyrionLannister,
   bronn,
 ];
-
-const charactersMessage = characters.map((character) => character.talk());
-
-charactersMessage.forEach((talk, index) => {
-  console.log(`${index + 1}. ${talk}`);
-});

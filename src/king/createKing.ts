@@ -1,5 +1,5 @@
-import createCharacter from "../character/createCharacte";
-import type { King } from "./type";
+import createCharacter from "../character/createCharacter";
+import type { King } from "./types";
 
 export const createKing = (
   characterSpects: { name: string; surname: string; age: number },

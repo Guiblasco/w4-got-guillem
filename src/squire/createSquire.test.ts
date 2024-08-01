@@ -1,6 +1,6 @@
-import type { Fighter } from "../fighter/type";
+import type { Fighter } from "../fighter/types";
 import createSquires from "./createSquire";
-import type { AssKissingRange, Squire } from "./type";
+import type { AssKissingRange, Squire } from "./types";
 
 describe("Given the function createSquires", () => {
   describe("When it recives a character named Bronn and their character companion named Jaime", () => {
