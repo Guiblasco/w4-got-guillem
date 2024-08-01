@@ -1,7 +1,7 @@
-import { createSquire } from "./squire/createSquires";
-import { createFighter } from "./fighter/createFighters";
-import { createAdviser } from "./adviser/createAdvisers";
-import { createKing } from "./king/createKings";
+import createSquire from "./squire/createSquire";
+import createFighter from "./fighter/createFighter";
+import createAdviser from "./adviser/createAdviser";
+import createKing from "./king/createKing";
 
 const joffreyBaratheon = createKing(
   { name: "Joffrey", surname: "Baratheon", age: 36 },

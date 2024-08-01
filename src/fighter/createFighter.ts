@@ -1,7 +1,7 @@
-import createCharacter from "../character/createCharacter";
+import createCharacter from "../character/createCharacte";
 import type { SkillRange, Fighter } from "./type";
 
-export const createFighter = (
+const createFighter = (
   characterIdentity: { name: string; surname: string; age: number },
   skill: SkillRange,
   weapon: string,
