@@ -1,4 +1,4 @@
-import createCharacter from "./createCharacter.js";
+import createCharacter from "./createCharacte";
 
 describe("Given the function createCharacter", () => {
   describe("When it recives the values Alexis Garcia and 32", () => {

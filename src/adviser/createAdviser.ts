@@ -1,4 +1,4 @@
-import createCharacter from "../character/createCharacter";
+import createCharacter from "../character/createCharacte";
 import type Character from "../character/types";
 import type { Adviser } from "./type";
 

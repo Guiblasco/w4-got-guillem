@@ -1,9 +1,9 @@
 import type Character from "../character/types";
-import createAdvisers from "./createAdvisers";
+import createAdvisers from "./createAdviser";
 
 describe("Given the function createAdvisers", () => {
-  describe("When it recives the values {'Tyrion', 'Lannister', '24'}, daenerysTargaryen", () => {
-    test("Then it should return an object type Adviser with the properties name: 'Tyrion', advisee.name: 'Daenerys'", () => {
+  describe("When it recives a Character named Tyrion Lannister, his age 24, and his companions Character daenerysTargaryen", () => {
+    test("Then it should return an Adviser  named Tyrion Lannister and his companion character is Daenerys'", () => {
       const characterSpects = { name: "Tyrion", surname: "Lannister", age: 24 };
       const characterAdvisesTyrion: Character = {
         name: "Daenerys",

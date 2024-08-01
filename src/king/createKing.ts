@@ -1,4 +1,4 @@
-import createCharacter from "../character/createCharacter";
+import createCharacter from "../character/createCharacte";
 import type { King } from "./type";
 
 export const createKing = (
