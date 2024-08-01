@@ -1,5 +1,7 @@
+
 import createCharacter from "../character/createCharacter";
 import type { King } from "./types";
+
 
 export const createKing = (
   characterSpects: { name: string; surname: string; age: number },

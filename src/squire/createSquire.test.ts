@@ -1,3 +1,4 @@
+
 import type { Fighter } from "../fighter/types";
 import createSquires from "./createSquire";
 import type { AssKissingRange, Squire } from "./types";
