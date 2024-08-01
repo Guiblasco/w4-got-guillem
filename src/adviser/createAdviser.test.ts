@@ -1,5 +1,5 @@
 import type Character from "../character/types";
-import createAdvisers from "./createAdviser";
+import createAdvisers from "./createAdviser.js";
 
 describe("Given the function createAdvisers", () => {
   describe("When it recives a Character named Tyrion Lannister, his age 24, and his companions Character daenerysTargaryen", () => {

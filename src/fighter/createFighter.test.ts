@@ -1,4 +1,4 @@
-import createFighter from "./createFighter";
+import createFighter from "./createFighter.js";
 import type { SkillRange } from "./types";
 
 describe("Given the function createFighter", () => {

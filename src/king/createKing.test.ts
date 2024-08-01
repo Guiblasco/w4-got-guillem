@@ -1,4 +1,4 @@
-import createKing from "./createKing";
+import createKing from "./createKing.js";
 import type King from "./types";
 
 describe("Given the function createKings", () => {
