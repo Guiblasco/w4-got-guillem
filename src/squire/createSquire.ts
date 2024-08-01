@@ -1,4 +1,4 @@
-import createCharacter from "../character/createCharacter";
+import createCharacter from "../character/createCharacter.js";
 import type { Squire, AssKissingRange } from "./types";
 import type { Fighter } from "../fighter/types";
 

@@ -1,5 +1,5 @@
 import type { Fighter } from "../fighter/types";
-import createSquires from "./createSquire";
+import createSquires from "./createSquire.js";
 import type { AssKissingRange, Squire } from "./types";
 
 describe("Given the function createSquires", () => {

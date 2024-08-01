@@ -1,7 +1,7 @@
-import createSquire from "./squire/createSquire";
-import createFighter from "./fighter/createFighter";
-import createAdviser from "./adviser/createAdviser";
-import createKing from "./king/createKing";
+import createSquire from "./squire/createSquire.js";
+import createFighter from "./fighter/createFighter.js";
+import createAdviser from "./adviser/createAdviser.js";
+import createKing from "./king/createKing.js";
 import type Character from "./character/types";
 
 const joffreyBaratheon = createKing(

@@ -1,4 +1,4 @@
-import createCharacter from "../character/createCharacter";
+import createCharacter from "../character/createCharacter.js";
 import type { SkillRange, Fighter } from "./types";
 
 const createFighter = (
