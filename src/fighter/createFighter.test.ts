@@ -1,5 +1,5 @@
 import createFighter from "./createFighter";
-import type { SkillRange } from "./type";
+import type { SkillRange } from "./types";
 
 describe("Given the function createFighter", () => {
   describe("When it receives a Character with that his weapon is sword and his skillRange is 6 ", () => {
