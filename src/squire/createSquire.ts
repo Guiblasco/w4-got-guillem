@@ -1,8 +1,6 @@
-
+import createCharacter from "../character/createCharacter";
+import type { Squire, AssKissingRange } from "./types";
 import type { Fighter } from "../fighter/types";
-import type { AssKissingRange, Squire } from "./types";
-import createCharacter from "../character/createCharacter.js";
-
 
 export const createSquire = (
   characterIdentity: { name: string; surname: string; age: number },
