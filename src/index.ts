@@ -1,5 +1,11 @@
-import type Character from "./character/types";
-import { characters } from "./data.js";
+import renderApp from "./components/app/renderApp.js";
 
-const getCharacterMessage = (characters: Character[]): string[] =>
-  characters.map((character) => character.talk());
+const root = document.querySelector(".root");
+
+if (!root) {
+  throw new Error("Ha habido un problema con el elemento");
+}
+
+const app = renderApp();
+
+root.appendChild(app);
