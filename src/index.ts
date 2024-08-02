@@ -3,5 +3,3 @@ import { characters } from "./data.js";
 
 const getCharacterMessage = (characters: Character[]): string[] =>
   characters.map((character) => character.talk());
-
-console.log(getCharacterMessage(characters));
