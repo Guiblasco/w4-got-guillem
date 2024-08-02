@@ -1,6 +1,6 @@
 import createCharacter from "../character/createCharacter.js";
-import type Character from "../character/types";
-import type { Adviser } from "./types";
+import type Character from "../character/types.js";
+import type { Adviser } from "./types.js";
 
 export const createAdviser = (
   characterIdentity: { name: string; surname: string; age: number },

@@ -1,5 +1,5 @@
 import createCharacter from "../character/createCharacter.js";
-import type { Squire, AssKissingRange } from "./types";
+import type { Squire, AssKissingRange } from "./types.js";
 import type { Fighter } from "../fighter/types";
 
 export const createSquire = (
