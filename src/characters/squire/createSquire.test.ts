@@ -1,6 +1,6 @@
 import type { Fighter } from "../fighter/types";
 import createSquires from "./createSquire.js";
-import type { AssKissingRange, Squire } from "./types";
+import type { AssKissingRange, Squire } from "./types.js";
 
 describe("Given the function createSquires", () => {
   describe("When it recives a character named Bronn and their character companion named Jaime", () => {
