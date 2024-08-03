@@ -1,34 +1,26 @@
 import type Character from "../character/types";
-import createAdvisers from "./createAdviser.js";
+import createFighter from "../fighter/createFighter";
+import createAdviser from "./createAdviser.js";
 
 describe("Given the function createAdvisers", () => {
-  describe("When it recives a Character named Tyrion Lannister, his age 24, and his companions Character daenerysTargaryen", () => {
-    test("Then it should return an Adviser  named Tyrion Lannister and his companion character is Daenerys'", () => {
-      const characterSpects = { name: "Tyrion", surname: "Lannister", age: 24 };
-      const characterAdvisesTyrion: Character = {
-        name: "Daenerys",
-        surname: "Targaryen",
-        age: 16,
-        isAlive: true,
-        talk() {
-          return "";
-        },
-        die() {
-          this.isAlive = false;
-        },
-      };
-      const expetedTyrion = {
+  describe("When it recives a Character named Tyrion Lannister, his age 24, and his character advises named Daenerys Targaryen", () => {
+    test("Then it should return an Adviser  named Tyrion Lannister and his character advises name is Daenerys Targaryen", () => {
+      const characterIdentity = {
         name: "Tyrion",
         surname: "Lannister",
-        characterAdvises: { name: "Daenerys" },
+        age: 24,
       };
-
-      const tyrion = createAdvisers(characterSpects, characterAdvisesTyrion);
-
-      expect(tyrion.name).toBe(expetedTyrion.name);
-      expect(tyrion.characterAdvises.name).toBe(
-        expetedTyrion.characterAdvises.name,
+      const daenerys: Character = createFighter(
+        { name: "Daenerys", surname: "Targarien", age: 25 },
+        6,
+        "sword",
       );
+      const expectedTyronName = "Tyrion";
+
+      const tyrion = createAdviser(characterIdentity, daenerys);
+
+      expect(tyrion.name).toBe(expectedTyronName);
+      expect(tyrion.characterAdvises).toBe(daenerys);
     });
   });
 });
