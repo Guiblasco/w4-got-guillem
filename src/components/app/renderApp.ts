@@ -1,3 +1,4 @@
+import renderContainerCard from "../containerCard/containerCard.js";
 import renderHeader from "../header/renderHeader.js";
 
 const renderApp = () => {
@@ -5,8 +6,10 @@ const renderApp = () => {
   container.classList.add("container");
 
   const header = renderHeader();
+  const containerCard = renderContainerCard();
 
   container.appendChild(header);
+  container.appendChild(containerCard);
 
   return container;
 };

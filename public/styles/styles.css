@@ -26,12 +26,21 @@ h1 {
   font-size: 4rem;
 }
 
+.header {
+  padding: 20px;
+  text-align: center;
+}
+
 .container {
   max-width: 1000px;
   margin: 0 auto;
 }
 
-.header {
-  padding: 20px;
-  text-align: center;
+.container-card {
+  margin: 0;
+}
+
+.card {
+  width: 300px;
+  height: 300px;
 }
