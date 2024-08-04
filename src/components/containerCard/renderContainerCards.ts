@@ -1,12 +1,14 @@
+import type Character from "../../characters/character/types.js";
 import renderCard from "../card/renderCard.js";
 
-const renderContainerCard = () => {
+const renderContainerCard = (characters: Character[]) => {
   const containerCard = document.createElement("div");
   containerCard.classList.add("container-card");
 
-  const characterCard = renderCard();
-
-  containerCard.appendChild(characterCard);
+  characters.forEach((character) => {
+    const characterCard = renderCard(character);
+    containerCard.appendChild(characterCard);
+  });
 
   return containerCard;
 };

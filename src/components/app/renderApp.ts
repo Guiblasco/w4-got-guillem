@@ -1,3 +1,4 @@
+import { characters } from "../../characters/character/data.js";
 import renderContainerCard from "../containerCard/renderContainerCards.js";
 import renderHeader from "../header/renderHeader.js";
 
@@ -6,7 +7,7 @@ const renderApp = () => {
   container.classList.add("container");
 
   const header = renderHeader();
-  const containerCard = renderContainerCard();
+  const containerCard = renderContainerCard(characters);
 
   container.appendChild(header);
   container.appendChild(containerCard);
