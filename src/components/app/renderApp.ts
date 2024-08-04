@@ -1,4 +1,4 @@
-import renderContainerCard from "../containerCard/containerCard.js";
+import renderContainerCard from "../containerCard/renderContainerCards.js";
 import renderHeader from "../header/renderHeader.js";
 
 const renderApp = () => {
