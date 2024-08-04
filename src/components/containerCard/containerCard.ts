@@ -4,9 +4,9 @@ const renderContainerCard = () => {
   const containerCard = document.createElement("div");
   containerCard.classList.add("container-card");
 
-  const card = renderCard();
+  const characterCard = renderCard();
 
-  containerCard.appendChild(card);
+  containerCard.appendChild(characterCard);
 
   return containerCard;
 };
