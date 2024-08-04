@@ -21,6 +21,7 @@ body {
   background-color: #a34507;
   color: #fff;
 }
+
 h1 {
   margin: 0;
   font-size: 4rem;
@@ -42,7 +43,12 @@ h1 {
   gap: 20px 60px;
   padding: 0;
   justify-items: center;
+
+  @media (width >=1200px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
+
 .container-card__card {
   background-color: #fff;
   height: 400px;

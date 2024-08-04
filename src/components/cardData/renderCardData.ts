@@ -5,8 +5,8 @@ const renderCardData = (character: Character): HTMLElement => {
   cardData.classList.add("container-card__card__data");
 
   cardData.innerHTML = `
-  <span class="card__title">${character.name} ${character.surname}</span>
-  `;
+    <span class="card__title">${character.name} ${character.surname}</span>
+    `;
 
   return cardData;
 };
