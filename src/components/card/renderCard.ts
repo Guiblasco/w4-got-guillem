@@ -7,6 +7,9 @@ const renderCard = (character: Character) => {
 
   const cardData = renderCardData(character);
   card.appendChild(cardData);
+  card.innerHTML = `
+      <img src="${character.imageUrl}" alt="personaje ${character.name.toLowerCase()}">
+      ${cardData.outerHTML}`;
 
   return card;
 };

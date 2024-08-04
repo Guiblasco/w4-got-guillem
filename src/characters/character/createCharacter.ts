@@ -10,6 +10,7 @@ const createCharacter = (
     surname,
     age,
     isAlive: true,
+    imageUrl: `images/${name.toLocaleLowerCase()}.webp`,
     die() {
       this.isAlive = false;
     },

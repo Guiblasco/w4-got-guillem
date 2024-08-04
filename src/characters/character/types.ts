@@ -3,6 +3,7 @@ interface Character {
   surname: string;
   age: number;
   isAlive: boolean;
+  imageUrl: string;
   die: () => void;
   talk: () => string;
 }
