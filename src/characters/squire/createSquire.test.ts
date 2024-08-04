@@ -11,6 +11,7 @@ describe("Given the function createSquires", () => {
         surname: "Lannister",
         age: 36,
         isAlive: true,
+        imageUrl: "bronn",
         weapon: "sword",
         skill: 9,
         talk() {
